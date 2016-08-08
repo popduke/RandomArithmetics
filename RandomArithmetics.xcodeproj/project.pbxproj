@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		729F5F8C1D578416008B7038 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729F5F8B1D578416008B7038 /* Nimble.framework */; };
 		72C53E931D56227F007B8624 /* ArithmeticProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C53E921D56227F007B8624 /* ArithmeticProblem.swift */; };
 		72C53E951D562EBC007B8624 /* GenerateProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C53E941D562EBC007B8624 /* GenerateProblem.swift */; };
-		72C53EBB1D563AC7007B8624 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C53EBA1D563AC7007B8624 /* Tests.swift */; };
+		72C53EBB1D563AC7007B8624 /* GenerateProblemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C53EBA1D563AC7007B8624 /* GenerateProblemTests.swift */; };
 		72C53EBD1D563AC7007B8624 /* RandomArithmetics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72C53E851D55A51E007B8624 /* RandomArithmetics.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,12 +25,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		729F5F8B1D578416008B7038 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "Carthage/Checkouts/Nimble/build/Debug-iphoneos/Nimble.framework"; sourceTree = "<group>"; };
 		72C53E851D55A51E007B8624 /* RandomArithmetics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RandomArithmetics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72C53E901D5615EE007B8624 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Sources/Info.plist; sourceTree = SOURCE_ROOT; };
 		72C53E921D56227F007B8624 /* ArithmeticProblem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArithmeticProblem.swift; path = Sources/ArithmeticProblem.swift; sourceTree = SOURCE_ROOT; };
 		72C53E941D562EBC007B8624 /* GenerateProblem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GenerateProblem.swift; path = Sources/GenerateProblem.swift; sourceTree = SOURCE_ROOT; };
 		72C53EB81D563AC7007B8624 /* RandomArithmetics iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RandomArithmetics iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		72C53EBA1D563AC7007B8624 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		72C53EBA1D563AC7007B8624 /* GenerateProblemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateProblemTests.swift; sourceTree = "<group>"; };
 		72C53EBC1D563AC7007B8624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -45,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				729F5F8C1D578416008B7038 /* Nimble.framework in Frameworks */,
 				72C53EBD1D563AC7007B8624 /* RandomArithmetics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,9 +55,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		729F5F8D1D578418008B7038 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				729F5F8B1D578416008B7038 /* Nimble.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		72C53E7B1D55A51E007B8624 = {
 			isa = PBXGroup;
 			children = (
+				729F5F8D1D578418008B7038 /* Frameworks */,
 				72C53E871D55A51E007B8624 /* Sources */,
 				72C53EB91D563AC7007B8624 /* Tests */,
 				72C53E861D55A51E007B8624 /* Products */,
@@ -84,7 +96,7 @@
 		72C53EB91D563AC7007B8624 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				72C53EBA1D563AC7007B8624 /* Tests.swift */,
+				72C53EBA1D563AC7007B8624 /* GenerateProblemTests.swift */,
 				72C53EBC1D563AC7007B8624 /* Info.plist */,
 			);
 			path = Tests;
@@ -206,7 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72C53EBB1D563AC7007B8624 /* Tests.swift in Sources */,
+				72C53EBB1D563AC7007B8624 /* GenerateProblemTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +364,10 @@
 		72C53EC11D563AC7007B8624 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Nimble/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Tests;
@@ -362,6 +378,10 @@
 		72C53EC21D563AC7007B8624 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Nimble/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Tests;
@@ -388,6 +408,7 @@
 				72C53E8F1D55A51E007B8624 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		72C53EC01D563AC7007B8624 /* Build configuration list for PBXNativeTarget "RandomArithmetics iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +417,7 @@
 				72C53EC21D563AC7007B8624 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
