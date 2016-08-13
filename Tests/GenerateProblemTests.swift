@@ -12,6 +12,7 @@ import Nimble
 
 class Tests: XCTestCase {
     
+    #if os(iOS) || os(OSX)
     func testNextAddtion() {
         let additionProblem = nextAddition()
         additionProblem
@@ -21,7 +22,9 @@ class Tests: XCTestCase {
         expect(additionProblem.rightOperand).to(beGreaterThan(0))
         expect(additionProblem.op).to(equal(Operator.Add))
     }
+    #endif
     
+    #if os(iOS) || os(watchOS)
     func testNextMultiplication() {
         let multiplicationProblem = nextMultiplication()
         multiplicationProblem
@@ -31,7 +34,9 @@ class Tests: XCTestCase {
         expect(multiplicationProblem.leftOperand).to(beGreaterThan(0))
         expect(multiplicationProblem.op).to(equal(Operator.Multiply))
     }
+    #endif
     
+    #if os(iOS) || os(tvOS)
     func testNextSubtraction() {
         let minusProblem = nextSubtraction()
         minusProblem
@@ -41,4 +46,5 @@ class Tests: XCTestCase {
         expect(minusProblem.rightOperand).to(beGreaterThan(0))
         expect(minusProblem.op).to(equal(Operator.Minus))
     }
+    #endif
 }

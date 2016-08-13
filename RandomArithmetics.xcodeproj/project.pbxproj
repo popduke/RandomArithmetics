@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		729E14CD1D5E2F9600895B5E /* ArithmeticProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C53E921D56227F007B8624 /* ArithmeticProblem.swift */; };
+		729E14CE1D5E2F9600895B5E /* GenerateProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C53E941D562EBC007B8624 /* GenerateProblem.swift */; };
+		729E14D81D5E337A00895B5E /* RandomArithmetics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729E14C31D5E29BA00895B5E /* RandomArithmetics.framework */; };
+		729E14DF1D5E35C300895B5E /* GenerateProblemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C53EBA1D563AC7007B8624 /* GenerateProblemTests.swift */; };
+		729E14E11D5E35C700895B5E /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729E14E01D5E35C700895B5E /* Nimble.framework */; };
+		729E14EF1D5E3A3300895B5E /* ArithmeticProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C53E921D56227F007B8624 /* ArithmeticProblem.swift */; };
+		729E14F01D5E3A3300895B5E /* GenerateProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C53E941D562EBC007B8624 /* GenerateProblem.swift */; };
+		729E14FE1D5E3AAC00895B5E /* ArithmeticProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C53E921D56227F007B8624 /* ArithmeticProblem.swift */; };
+		729E14FF1D5E3AAC00895B5E /* GenerateProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C53E941D562EBC007B8624 /* GenerateProblem.swift */; };
+		729E15091D5E3AE600895B5E /* RandomArithmetics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729E14F61D5E3A8200895B5E /* RandomArithmetics.framework */; };
+		729E150F1D5E3B0500895B5E /* GenerateProblemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C53EBA1D563AC7007B8624 /* GenerateProblemTests.swift */; };
+		729E15111D5E3B0C00895B5E /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729E15101D5E3B0C00895B5E /* Nimble.framework */; };
 		729F5F8C1D578416008B7038 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729F5F8B1D578416008B7038 /* Nimble.framework */; };
 		72C53E931D56227F007B8624 /* ArithmeticProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C53E921D56227F007B8624 /* ArithmeticProblem.swift */; };
 		72C53E951D562EBC007B8624 /* GenerateProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C53E941D562EBC007B8624 /* GenerateProblem.swift */; };
@@ -15,6 +27,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		729E14D91D5E337A00895B5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72C53E7C1D55A51E007B8624 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 729E14C21D5E29BA00895B5E;
+			remoteInfo = "RandomArithmetics macOS";
+		};
+		729E150A1D5E3AE600895B5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72C53E7C1D55A51E007B8624 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 729E14F51D5E3A8200895B5E;
+			remoteInfo = "RandomArithmetics tvOS";
+		};
 		72C53EBE1D563AC7007B8624 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 72C53E7C1D55A51E007B8624 /* Project object */;
@@ -25,6 +51,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		729E14C31D5E29BA00895B5E /* RandomArithmetics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RandomArithmetics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		729E14D31D5E337900895B5E /* RandomArithmetics macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RandomArithmetics macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		729E14E01D5E35C700895B5E /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Checkouts/Nimble/build/Debug/Nimble.framework; sourceTree = "<group>"; };
+		729E14E71D5E39DC00895B5E /* RandomArithmetics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RandomArithmetics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		729E14F61D5E3A8200895B5E /* RandomArithmetics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RandomArithmetics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		729E15041D5E3AE600895B5E /* RandomArithmetics tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RandomArithmetics tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		729E15101D5E3B0C00895B5E /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "Carthage/Checkouts/Nimble/build/Debug-appletvos/Nimble.framework"; sourceTree = "<group>"; };
 		729F5F8B1D578416008B7038 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "Carthage/Checkouts/Nimble/build/Debug-iphoneos/Nimble.framework"; sourceTree = "<group>"; };
 		72C53E851D55A51E007B8624 /* RandomArithmetics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RandomArithmetics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72C53E901D5615EE007B8624 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Sources/Info.plist; sourceTree = SOURCE_ROOT; };
@@ -36,6 +69,45 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		729E14BF1D5E29BA00895B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		729E14D01D5E337900895B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				729E14E11D5E35C700895B5E /* Nimble.framework in Frameworks */,
+				729E14D81D5E337A00895B5E /* RandomArithmetics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		729E14E31D5E39DC00895B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		729E14F21D5E3A8200895B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		729E15011D5E3AE600895B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				729E15111D5E3B0C00895B5E /* Nimble.framework in Frameworks */,
+				729E15091D5E3AE600895B5E /* RandomArithmetics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		72C53E811D55A51E007B8624 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -58,6 +130,8 @@
 		729F5F8D1D578418008B7038 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				729E15101D5E3B0C00895B5E /* Nimble.framework */,
+				729E14E01D5E35C700895B5E /* Nimble.framework */,
 				729F5F8B1D578416008B7038 /* Nimble.framework */,
 			);
 			name = Frameworks;
@@ -78,6 +152,11 @@
 			children = (
 				72C53E851D55A51E007B8624 /* RandomArithmetics.framework */,
 				72C53EB81D563AC7007B8624 /* RandomArithmetics iOSTests.xctest */,
+				729E14C31D5E29BA00895B5E /* RandomArithmetics.framework */,
+				729E14D31D5E337900895B5E /* RandomArithmetics macOSTests.xctest */,
+				729E14E71D5E39DC00895B5E /* RandomArithmetics.framework */,
+				729E14F61D5E3A8200895B5E /* RandomArithmetics.framework */,
+				729E15041D5E3AE600895B5E /* RandomArithmetics tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,6 +184,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		729E14C01D5E29BA00895B5E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		729E14E41D5E39DC00895B5E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		729E14F31D5E3A8200895B5E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		72C53E821D55A51E007B8624 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -115,9 +215,99 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		72C53E841D55A51E007B8624 /* RandomArithmetics */ = {
+		729E14C21D5E29BA00895B5E /* RandomArithmetics macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 72C53E8D1D55A51E007B8624 /* Build configuration list for PBXNativeTarget "RandomArithmetics" */;
+			buildConfigurationList = 729E14C81D5E29BA00895B5E /* Build configuration list for PBXNativeTarget "RandomArithmetics macOS" */;
+			buildPhases = (
+				729E14BE1D5E29BA00895B5E /* Sources */,
+				729E14BF1D5E29BA00895B5E /* Frameworks */,
+				729E14C01D5E29BA00895B5E /* Headers */,
+				729E14C11D5E29BA00895B5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RandomArithmetics macOS";
+			productName = "RandomArithmetics macOS";
+			productReference = 729E14C31D5E29BA00895B5E /* RandomArithmetics.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		729E14D21D5E337900895B5E /* RandomArithmetics macOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 729E14DB1D5E337A00895B5E /* Build configuration list for PBXNativeTarget "RandomArithmetics macOSTests" */;
+			buildPhases = (
+				729E14CF1D5E337900895B5E /* Sources */,
+				729E14D01D5E337900895B5E /* Frameworks */,
+				729E14D11D5E337900895B5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				729E14DA1D5E337A00895B5E /* PBXTargetDependency */,
+			);
+			name = "RandomArithmetics macOSTests";
+			productName = "RandomArithmetics macOSTests";
+			productReference = 729E14D31D5E337900895B5E /* RandomArithmetics macOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		729E14E61D5E39DC00895B5E /* RandomArithmetics watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 729E14EC1D5E39DC00895B5E /* Build configuration list for PBXNativeTarget "RandomArithmetics watchOS" */;
+			buildPhases = (
+				729E14E21D5E39DC00895B5E /* Sources */,
+				729E14E31D5E39DC00895B5E /* Frameworks */,
+				729E14E41D5E39DC00895B5E /* Headers */,
+				729E14E51D5E39DC00895B5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RandomArithmetics watchOS";
+			productName = "RandomArithmetics watchOS";
+			productReference = 729E14E71D5E39DC00895B5E /* RandomArithmetics.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		729E14F51D5E3A8200895B5E /* RandomArithmetics tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 729E14FB1D5E3A8200895B5E /* Build configuration list for PBXNativeTarget "RandomArithmetics tvOS" */;
+			buildPhases = (
+				729E14F11D5E3A8200895B5E /* Sources */,
+				729E14F21D5E3A8200895B5E /* Frameworks */,
+				729E14F31D5E3A8200895B5E /* Headers */,
+				729E14F41D5E3A8200895B5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RandomArithmetics tvOS";
+			productName = "RandomArithmetics tvOS";
+			productReference = 729E14F61D5E3A8200895B5E /* RandomArithmetics.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		729E15031D5E3AE600895B5E /* RandomArithmetics tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 729E150C1D5E3AE600895B5E /* Build configuration list for PBXNativeTarget "RandomArithmetics tvOSTests" */;
+			buildPhases = (
+				729E15001D5E3AE600895B5E /* Sources */,
+				729E15011D5E3AE600895B5E /* Frameworks */,
+				729E15021D5E3AE600895B5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				729E150B1D5E3AE600895B5E /* PBXTargetDependency */,
+			);
+			name = "RandomArithmetics tvOSTests";
+			productName = "RandomArithmetics tvOSTests";
+			productReference = 729E15041D5E3AE600895B5E /* RandomArithmetics tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		72C53E841D55A51E007B8624 /* RandomArithmetics iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72C53E8D1D55A51E007B8624 /* Build configuration list for PBXNativeTarget "RandomArithmetics iOS" */;
 			buildPhases = (
 				72C53E801D55A51E007B8624 /* Sources */,
 				72C53E811D55A51E007B8624 /* Frameworks */,
@@ -128,7 +318,7 @@
 			);
 			dependencies = (
 			);
-			name = RandomArithmetics;
+			name = "RandomArithmetics iOS";
 			productName = RandomArithmetics;
 			productReference = 72C53E851D55A51E007B8624 /* RandomArithmetics.framework */;
 			productType = "com.apple.product-type.framework";
@@ -161,6 +351,21 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = example;
 				TargetAttributes = {
+					729E14C21D5E29BA00895B5E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					729E14D21D5E337900895B5E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					729E14E61D5E39DC00895B5E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					729E14F51D5E3A8200895B5E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					729E15031D5E3AE600895B5E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 					72C53E841D55A51E007B8624 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
@@ -181,13 +386,53 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				72C53E841D55A51E007B8624 /* RandomArithmetics */,
+				72C53E841D55A51E007B8624 /* RandomArithmetics iOS */,
+				729E14C21D5E29BA00895B5E /* RandomArithmetics macOS */,
+				729E14E61D5E39DC00895B5E /* RandomArithmetics watchOS */,
+				729E14F51D5E3A8200895B5E /* RandomArithmetics tvOS */,
 				72C53EB71D563AC7007B8624 /* RandomArithmetics iOSTests */,
+				729E14D21D5E337900895B5E /* RandomArithmetics macOSTests */,
+				729E15031D5E3AE600895B5E /* RandomArithmetics tvOSTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		729E14C11D5E29BA00895B5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		729E14D11D5E337900895B5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		729E14E51D5E39DC00895B5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		729E14F41D5E3A8200895B5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		729E15021D5E3AE600895B5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		72C53E831D55A51E007B8624 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -205,6 +450,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		729E14BE1D5E29BA00895B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				729E14CD1D5E2F9600895B5E /* ArithmeticProblem.swift in Sources */,
+				729E14CE1D5E2F9600895B5E /* GenerateProblem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		729E14CF1D5E337900895B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				729E14DF1D5E35C300895B5E /* GenerateProblemTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		729E14E21D5E39DC00895B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				729E14EF1D5E3A3300895B5E /* ArithmeticProblem.swift in Sources */,
+				729E14F01D5E3A3300895B5E /* GenerateProblem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		729E14F11D5E3A8200895B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				729E14FE1D5E3AAC00895B5E /* ArithmeticProblem.swift in Sources */,
+				729E14FF1D5E3AAC00895B5E /* GenerateProblem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		729E15001D5E3AE600895B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				729E150F1D5E3B0500895B5E /* GenerateProblemTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		72C53E801D55A51E007B8624 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -225,14 +513,212 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		729E14DA1D5E337A00895B5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 729E14C21D5E29BA00895B5E /* RandomArithmetics macOS */;
+			targetProxy = 729E14D91D5E337A00895B5E /* PBXContainerItemProxy */;
+		};
+		729E150B1D5E3AE600895B5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 729E14F51D5E3A8200895B5E /* RandomArithmetics tvOS */;
+			targetProxy = 729E150A1D5E3AE600895B5E /* PBXContainerItemProxy */;
+		};
 		72C53EBF1D563AC7007B8624 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 72C53E841D55A51E007B8624 /* RandomArithmetics */;
+			target = 72C53E841D55A51E007B8624 /* RandomArithmetics iOS */;
 			targetProxy = 72C53EBE1D563AC7007B8624 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		729E14C91D5E29BA00895B5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RandomArithmetics;
+				PRODUCT_NAME = RandomArithmetics;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		729E14CA1D5E29BA00895B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RandomArithmetics;
+				PRODUCT_NAME = RandomArithmetics;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		729E14DC1D5E337A00895B5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RandomArithmeticsTests;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		729E14DD1D5E337A00895B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RandomArithmeticsTests;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		729E14ED1D5E39DC00895B5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RandomArithmetics;
+				PRODUCT_NAME = RandomArithmetics;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		729E14EE1D5E39DC00895B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RandomArithmetics;
+				PRODUCT_NAME = RandomArithmetics;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		729E14FC1D5E3A8200895B5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RandomArithmetics;
+				PRODUCT_NAME = RandomArithmetics;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		729E14FD1D5E3A8200895B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RandomArithmetics;
+				PRODUCT_NAME = RandomArithmetics;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		729E150D1D5E3AE600895B5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RandomArithmetics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		729E150E1D5E3AE600895B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RandomArithmetics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
 		72C53E8B1D55A51E007B8624 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -338,7 +824,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.RandomArithmetics;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RandomArithmetics;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -356,7 +842,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.RandomArithmetics;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RandomArithmetics;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -366,11 +852,11 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Checkouts/Nimble/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RandomArithmeticsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -380,11 +866,11 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Checkouts/Nimble/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RandomArithmeticsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -392,6 +878,46 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		729E14C81D5E29BA00895B5E /* Build configuration list for PBXNativeTarget "RandomArithmetics macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				729E14C91D5E29BA00895B5E /* Debug */,
+				729E14CA1D5E29BA00895B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		729E14DB1D5E337A00895B5E /* Build configuration list for PBXNativeTarget "RandomArithmetics macOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				729E14DC1D5E337A00895B5E /* Debug */,
+				729E14DD1D5E337A00895B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		729E14EC1D5E39DC00895B5E /* Build configuration list for PBXNativeTarget "RandomArithmetics watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				729E14ED1D5E39DC00895B5E /* Debug */,
+				729E14EE1D5E39DC00895B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		729E14FB1D5E3A8200895B5E /* Build configuration list for PBXNativeTarget "RandomArithmetics tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				729E14FC1D5E3A8200895B5E /* Debug */,
+				729E14FD1D5E3A8200895B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		729E150C1D5E3AE600895B5E /* Build configuration list for PBXNativeTarget "RandomArithmetics tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				729E150D1D5E3AE600895B5E /* Debug */,
+				729E150E1D5E3AE600895B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		72C53E7F1D55A51E007B8624 /* Build configuration list for PBXProject "RandomArithmetics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -401,7 +927,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		72C53E8D1D55A51E007B8624 /* Build configuration list for PBXNativeTarget "RandomArithmetics" */ = {
+		72C53E8D1D55A51E007B8624 /* Build configuration list for PBXNativeTarget "RandomArithmetics iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				72C53E8E1D55A51E007B8624 /* Debug */,
